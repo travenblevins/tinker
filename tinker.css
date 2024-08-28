@@ -34,14 +34,38 @@ img {
     padding:0 10px 0 10px;
 }
 
+.menu2 {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:10px;
+}
+
+.left {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:15px;
+    padding: 0 0 0 10px;
+}
+
 .main {
     display:flex;
+    direction:row;
     justify-content:space-between;
-    align-items:center;
+    align-items:flex-start;
 }
 
 .right { 
     display:flex;
     justify-content: flex-end;
     align-items:center;
+}
+
+.sidebar {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start
 }
