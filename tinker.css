@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+
+.main {
+    display:flex;
+}
+
+.badge {
+    background-color: #dadfea;
+    width: 200px;
+    border: 1px solid #2a2a2a;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 150px;
+}
+
+
+.navbar {
+    display:flex;
+    height:60px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid black;
+    padding:0 10px 0 10px;
+}
+
+.main {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.right { 
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+}
